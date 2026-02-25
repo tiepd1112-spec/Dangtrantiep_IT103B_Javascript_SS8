@@ -10,8 +10,10 @@ const players = [
 
 const filterPlayersByPostion = (position, players) => {
     return players.filter((player) => {
-        let parts = player.split("-");
+        let parts = player.split(" - ");
         let playerPosition = parts[1];
         return playerPosition === position;
     });
 };
+
+console.log(filterPlayersByPostion("Forward",players));
