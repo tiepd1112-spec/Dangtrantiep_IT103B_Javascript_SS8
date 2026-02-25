@@ -8,8 +8,10 @@ const playerNames = [
     "Alisson",
 ];
 
-let getUppperNames = (playerNames) => {
+let getUpperNames = (playerNames) => {
     return playerNames.map((name) => {
     return name.toUpperCase();
     });
 };
+
+console.log(getUpperNames(playerNames));
