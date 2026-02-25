@@ -19,3 +19,4 @@ const getReversedNames = (players) => {
     return names;
 };
 console.log(getReversedNames(players));
+
